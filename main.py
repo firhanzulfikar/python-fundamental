@@ -7,5 +7,28 @@ Semua Sintaksis dasar bahasa pemrograman terdiri dari
 #Sekuensial
 print('Ibu berkata,"Pergi ke toko"')
 print('Budi Menjawab, "Baik, apa yang harus saya lakukan di toko?"')
-print('Ibu berkata,"Belikan satu botol susu,dan jika ada telur beli 6"')
+print('Ibu berkata,"Belikan satu botol susu"')
 print('Maka Budi berangkat ke toko')
+
+#Percabangan
+jumlah_botol_susu = 173
+jumlah_telur = 1587
+
+print(f"jumlah botol susu {jumlah_botol_susu} botol")
+print(f"jumlah telur {jumlah_telur} butir")
+
+if jumlah_botol_susu > 0:
+    print("Budi Mengecek harganya, dan uangnya ternyata cukup")
+
+    if jumlah_telur == 0:
+        print("Budi membeli 1 botol susu")
+
+    else:
+         print("Budi membeli 6 botol susu")
+
+else:
+    print("Budi tidak membeli botol susu")
+
+
+print("Budi pulang ke rumah")
+print("Budi menyampaikan hasilnya kepada ibunya")
